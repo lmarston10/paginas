@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.jpg">
+    <title>Lilys Floreria</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css'>
+    <link rel="stylesheet" href="pag-style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Lilys Floreria</h1>
+        <p id="sub">Encuentra el detalle perfecto para esa ocasión tan especial.....</p>
+    </header>
+    <nav>
+        <ul class="nav-ul">
+            <li class="nav-li"><a href="Pag.html">Inicio</a></li>
+            <li class="nav-li"><a href="pag-catalogo.html">Catalogo</a></li>
+            <li class="nav-li"><a href="pag-Sobre-Nosotros.html">Sobre Nosotros</a></li>
+            <li class="nav-li"><a href="pag-copyright.html">Copyright</a></li>
+        </ul>
+        <div class="buscar-fav">
+            <button class="favorite" id="boton-favoritos"></button>
+            <input class="search-text" type="search" id="buscador" placeholder="Buscar...">
+            <input class="search-icon" type="button" id="boton-enviar">
+        </div>
+    </nav>
+    <figure>
+        <p>Lo mas destacado</p>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/rosas-gerberas_rositas.jpg" width="80px" />
+                    <div>
+                        <h2>Rosas y gerberas</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/bouquete_rosa&blanco.jpg" />
+                    <div>
+                        <h2>Bouquete de rosas</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/arreglofelizcumpleanios.jpg">
+                    <div>
+                        <h2>Arreglo para feliz cumpleanios</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/florero-flores_amarillas.jpg" />
+                    <div>
+                        <h2>Florero con flores amarillas</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/rosas_amarillas-girasoles.jpg">
+                    <div>
+                        <h2>Rosas amarillas</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </figure>
+    <div id="resultados"></div>
+    <footer>
+        Copyright: leito
+    </footer>
+    <script src='https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js'></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
